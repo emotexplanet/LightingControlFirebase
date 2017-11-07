@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986877541404",
+    "firebase_url": "https://lighting-control-cc0e0.firebaseio.com",
+    "project_id": "lighting-control-cc0e0",
+    "storage_bucket": "lighting-control-cc0e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986877541404:android:ce9c7e172f55d1da",
+        "android_client_info": {
+          "package_name": "com.startinnovationhub.emmanuel.lightingcontrolfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986877541404-jnpkrcnm6om0ds9rluksju94o8brai8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRVlIvx__xYt1YxPXOZ-w5cQ1jVkxkr5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/lamp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/lamp_1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lamp1_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lamp1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_toEndOf="@id/lamp1"
+        android:layout_toRightOf="@id/lamp1"
+        android:text="@string/off"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/lamp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lamp1"
+        android:layout_marginTop="10dp"
+        android:text="@string/lamp_2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lamp2_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lamp2"
+        android:layout_alignLeft="@id/lamp1_state"
+        android:layout_alignStart="@id/lamp1_state"
+        android:layout_toEndOf="@id/lamp2"
+        android:layout_toRightOf="@id/lamp2"
+        android:text="@string/off"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/lamp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lamp2"
+        android:layout_marginTop="10dp"
+        android:text="@string/lamp_3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lamp3_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lamp3"
+        android:layout_alignLeft="@id/lamp1_state"
+        android:layout_alignStart="@id/lamp1_state"
+        android:layout_toEndOf="@id/lamp3"
+        android:layout_toRightOf="@id/lamp3"
+        android:text="@string/off"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/lamp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lamp3"
+        android:text="@string/lamp_4"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/lamp4_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lamp4"
+        android:layout_alignLeft="@id/lamp1_state"
+        android:layout_alignStart="@id/lamp1_state"
+        android:layout_toEndOf="@id/lamp4"
+        android:layout_toRightOf="@id/lamp4"
+        android:text="@string/off"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

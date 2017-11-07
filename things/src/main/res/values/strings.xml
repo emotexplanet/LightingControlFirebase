@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lighting Control Firebase</string>
+    <string name="lamp_1">Lamp_1:</string>
+    <string name="off">OFF</string>
+    <string name="lamp_2">Lamp_2:</string>
+    <string name="lamp_3">Lamp_3:</string>
+    <string name="lamp_4">Lamp_4:</string>
+</resources>

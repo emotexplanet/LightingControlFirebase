@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lamp Control</string>
+    <string name="lamp_1">Lamp(1)</string>
+    <string name="lamp_2">Lamp(2)</string>
+    <string name="lamp_3">Lamp(3)</string>
+    <string name="lamp_4">Lamp(4)</string>
+    <string name="on_all">On ALL</string>
+    <string name="all_off">All Off</string>
+</resources>
