@@ -16,6 +16,8 @@ import java.io.IOException;
 public class PinSettings implements AutoCloseable {
 
     private static final String TAG = PinSettings.class.getSimpleName();
+    private static final String OFF = "OFF";
+    private static final String ON = "ON";
 
     private Gpio pin;
 
@@ -62,9 +64,9 @@ public class PinSettings implements AutoCloseable {
             pin.setValue(turn);
             boolean value = getState();
             if(value){
-                textView.setText("NO");
+                textView.setText(ON);
             }else {
-                textView.setText("OFF");
+                textView.setText(OFF);
             }
         }catch (IOException e){
             Log.d(TAG, "Error in setting pin value" + e.getMessage(), e);
